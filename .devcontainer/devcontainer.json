@@ -15,7 +15,8 @@
         "usernamehw.errorlens",
         "mhutchie.git-graph",
         "GitHub.vscode-pull-request-github",
-        "golang.go"
+        "golang.go",
+        "tamasfe.even-better-toml"
       ]
     }
   }
