@@ -1,6 +1,8 @@
 {
   "name": "df-mc DevContainer",
-  "image": "mcr.microsoft.com/devcontainers/go:1-1.23-bookworm",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
   "customizations": {
     "vscode": {
       "settings": {
