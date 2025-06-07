@@ -1,6 +1,6 @@
 module server
 
-go 1.18
+go 1.23
 
 require (
 	github.com/df-mc/dragonfly v0.9.5
