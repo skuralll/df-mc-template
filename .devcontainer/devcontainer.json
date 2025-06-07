@@ -1,0 +1,20 @@
+{
+  "name": "df-mc DevContainer",
+  "image": "mcr.microsoft.com/devcontainers/go:1-1.23-bookworm",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "go.formatTool": "goimports",
+        "go.useLanguageServer": true
+      },
+      "extensions": [
+        "usernamehw.errorlens",
+        "mhutchie.git-graph",
+        "GitHub.vscode-pull-request-github",
+        "golang.go"
+      ]
+    }
+  }
+}
