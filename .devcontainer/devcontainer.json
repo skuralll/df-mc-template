@@ -1,6 +1,8 @@
 {
   "name": "df-mc DevContainer",
-  "image": "mcr.microsoft.com/devcontainers/go:1-1.23-bookworm",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
   "customizations": {
     "vscode": {
       "settings": {
@@ -13,7 +15,8 @@
         "usernamehw.errorlens",
         "mhutchie.git-graph",
         "GitHub.vscode-pull-request-github",
-        "golang.go"
+        "golang.go",
+        "tamasfe.even-better-toml"
       ]
     }
   }
